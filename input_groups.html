@@ -23,31 +23,27 @@
   </head>
   <body>
     <div class="container">
-      <!-- <div class="row">
-            <div class="col-4 col-sm6 col-md-8"><div class="box"></div></div>
-            <div class="col-8 col-sm6 col-md-4"><div class="box"></div></div>
-        </div> -->
-      <div class="row row-cols-2 gy-2">
-        <div class="col">
-          <div class="box">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia,
-            officiis. Culpa, fugit ipsa? Repudiandae quia dolorem iusto autem,
-            aliquid ipsa.
+      <form>
+        <lable for="amount" class="form-label">
+          Amount
+        </lable>
+        <div class="input-group">
+          <div class="input-group-text">$</div>
+          <input type="number" name="amount" id="amount" class="form-control" />
+          <div class="input-group-text">.00</div>
+        </div>
+
+        <lable for="add" class="form-label">
+            Add
+          </lable>
+          <div class="input-group">
+            <div class="input-group-text">$</div>
+            <input type="number" name="add" id="add" class="form-control" />
+            <button class="btn btn-primary">+</button>
           </div>
-        </div>
-        <div class="col">
-          <div class="box"></div>
-        </div>
-        <div class="col">
-          <div class="box"></div>
-        </div>
-        <div class="col">
-          <div class="box"></div>
-        </div>
-        <div class="col">
-          <div class="box"></div>
-        </div>
-      </div>
+
+        <button class="submit">Submit</button>
+      </form>
     </div>
   </body>
 </html>
